@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca';
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.big-margin {
+  margin: 8rem;
+}
+
+/* Nav bar styling */
+
+.game-hub-logo {
+  width: 140px;
+}
+
+.my-nav-color {
+  background-color: #84ceeb;
+}
+
+.my-nav-color a {
+	color: black;
+}
+
+.profile-pic {
+	display: none;
+}
+
+/* Footer styling */
+
+.my-footer p {
+  text-align: center;
+  font-size: 12pt;
+  margin: 0;
+}
+
+.my-footer {
+  width: 100%;
+  background-color: #5680e9;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Welcome message styling */
+
+.my-header {
+  font-family: 'Lexend Deca', 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+.welcome-box {
+  padding: 30pt;
+  background-color: #c1c8e4;
+  background-size: 100%;
+  border-radius: 30px;
+  margin: 3rem 3rem;
+  text-align: center;
+}
+
+p, p.card-body {
+  font-family: 'Lexend Deca', 'Helvetica', sans-serif;
+  font-size: 12pt;
+}
+
+.featured {
+  font-weight: 700;
+  font-size: 18pt;
+  text-align: center;
+}
+
+/* Quiz styling */
+
+.quiz-container {
+  display: block;
+  text-align: center;
+}
+
+.quiz-box {
+  padding: 30pt;
+  background-size: 50%;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #c1c8e4;
+  width: auto;
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 500px;
+  padding: 1rem 3rem;
+  margin: auto;
+  align-items: inherit;
+}
+
+.form-control {
+  text-align: left;
+  background-color: inherit;
+  margin-bottom: 25px;
+  border: 10rem solid;
+}
+
+.my-form {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.my-form input {
+  width: 70%
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control .question {
+  font-weight: bold;
+}
+
+.my-card-title {
+  font-weight: 700;
+  font-size: 16pt;
+}
+
+.quiz-heading {
+  text-align: center;
+  padding-bottom: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+
+/* Results styling */
+
+.results-box {
+  padding: 0 30pt 30pt 30pt;
+  /* background-color: #c1c8e4; */
+  background-size: 100%;
+  /* border-radius: 30px; */
+}
+
+
+/* Friends page */
+
+.color-card {
+  background-color: #c1c8e4;
+}
+
+.card-title,.text-center {
+  font-weight: 700;
+}
+
+.card-container {
+  padding-top: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn-card {
+  background-color: #84ceeb;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  margin-right: 1rem;
+}
+
+/* games page styling */
+
+.game-filter p {
+  font-size: 1.5rem;
+}
+
+.game-cards {
+  font-family: 'Lexend Deca', 'Helvetica', sans-serif;
+}
+
+.card-body {
+  background: #c1c8e4;
+}
+
+.card-body .btn.visit-button, .btn.submit-button, .btn.visit-button {
+  background-color: #6e39cf;
+  color: white;
+  padding: 2;
+}
+
+.btn.visit-button:hover, .btn.visit-button:focus, .btn.visit-button:active {
+  background-color: #6e39cf;
+}
+
+.col-sm .badge.genre {
+  background-color: #5ab9ea;
+}
+
+.col-sm .badge.player {
+  background-color: #5680e9;
+}
+
+.col-sm .badge.platform, .btn.friend-actions {
+  background-color: #8860d0;
+  color: white;
+}
+
+
+.form-select.genre {
+  background-color: #5ab9ea;
+  color: white;
+}
+
+.form-select.player {
+  background-color: #5680e9;
+  color: white;
+}
+
+.form-select.platform {
+  background-color: #8860d0;
+  color: white;
+}
+
+.sign-in-card {
+  background-color: #c1c8e4;
+  border-radius: 0.25rem;
+  padding: 4rem;
+  margin: 4rem;
+  text-align: center;
+  /* margin: 6rem; */
+}
+
+/* media queries */
+
+@media (min-width: 598px) {
+  .my-nav-font {
+    font-size: 15pt;
+  }
+
+  .game-hub-logo {
+		width: 160px;
+  }
+
+  .my-header {
+    font-size: 25pt;
+  }
+
+  p, p.card-body {
+    font-size: 15pt;
+  }
+
+  .take-quiz {
+    padding: 10px;
+    letter-spacing: 2px;
+		font-size: 13pt;
+  }
+
+  .featured {
+    font-size: 20pt;
+  }
+
+  .my-card-title {
+    font-size: 19pt;
+  }
+}
+
+@media (min-width: 768px) {
+	#profile-link {
+		display: none;
+	}
+
+  .my-nav-font {
+    font-size: 16pt;
+  }
+
+	.profile-pic {
+		display: block;
+		width: 45px;
+		height: 45px;
+	}
+}
+
+@media (min-width: 1200px) {
+  .game-hub-logo {
+    width: 190px;
+  }
+
+	.profile-pic {
+		width: 50px;
+		height: 50px;
+	}
+
+  .my-nav-font {
+    font-size: 17pt;
+  }
+
+  .my-header {
+    font-size: 28pt;
+  }
+
+  .my-footer {
+    margin-top: auto;
+  }
+}

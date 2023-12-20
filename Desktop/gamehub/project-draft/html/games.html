@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Change this to web app name --> 
+    <title>Game Hub - Games</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="icon" type="image/png" href="../img/video-game.png" aria-label="Game hub logo">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Lexend+Deca:wght@300;700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/862cde4ad5.js"></script>
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <div class="web-app-logo">
+          <img class="game-hub-logo" src="../img/logo-black.png" alt="Game Hub Logo">
+        </div>
+        
+        <div class="nav-bar-tabs">
+          <ul class="navtabs">
+            <li class="tab"><a href="../index.html">Home</a></li>
+            <li class="tab"><a href="quiz.html">Quiz</a></li>
+            <li class="tab"><a href="games.html">Games</a></li>
+            <li class="tab"><a href="friends.html">Friends</a></li>
+          </ul>
+        </div>
+  
+        <div class="toggle-menu">
+          <a href="#">
+            <i class="fa fa-bars" aria-label="menu"></i>
+          </a>
+        </div>
+      </nav>
+
+    <header>
+        <h1 class="p-4 m-2 welcome-bold">Game Masterlist</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="game-filter ms-4">
+                <!-- Search bar -->
+                <p>Search for: </p>
+                <div class="input-group">
+                    <input type="text" class="form-control me-4" aria-label="Game search">
+                </div>
+
+                <!-- code adapted from Bootstrap documentation -->
+                <!-- Sort By/Filter -->
+                <p>Filter by: </p>
+                <!-- Filter Dropdowns -->
+                <div class="dropdown">
+                    <!-- genre dropdown -->
+                    <div class="btn-group mb-4">
+                        <button type="button" class="btn dropdown-toggle genre" data-bs-toggle="dropdown" aria-expanded="false">Genre</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Comfy</a></li>
+                            <li><a class="dropdown-item" href="#">Platformer</a></li>
+                            <li><a class="dropdown-item" href="#">RPG</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Any</a></li>
+                        </ul>
+                    </div>
+                    <!-- single/multiplayer dropdown -->
+                    <div class="btn-group mb-4">
+                        <button type="button" class="btn dropdown-toggle player" data-bs-toggle="dropdown" aria-expanded="false">Single/Multi player</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Single player</a></li>
+                            <li><a class="dropdown-item" href="#">Multi player</a></li>
+                            <li><a class="dropdown-item" href="#">Single/Multi player</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Any</a></li>
+                        </ul>
+                    </div>
+                    <!-- platform dropdown -->
+                    <div class="btn-group mb-4">
+                        <button type="button" class="btn dropdown-toggle platform" data-bs-toggle="dropdown" aria-expanded="false">Platform</button>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Mobile</a></li>
+                            <li><a class="dropdown-item" href="#">PC</a></li>
+                            <li><a class="dropdown-item" href="#">Console</a></li>
+                            <li><a class="dropdown-item" href="#">Cross-platform</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Any</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- code adapted from Bootstrap documentation -->
+        <section>
+            <div class="container game-cards">
+                <!-- Game Card BS Grid -->
+                <div class="row">
+                    <!-- Card #1: Unpacking -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-unpacking.png" alt="Unpacking game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Unpacking</h2>
+                                        <div>
+                                            <span class="badge genre">puzzle</span>
+                                            <span class="badge genre">cozy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                            <span class="badge platform">PC</span>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <p class="card-text mt-2">Unpacking is a game about the familiar experience of pulling possessions out of boxes and fitting them into a new home.</p>
+                                <a href="https://www.unpackinggame.com/" class="btn visit-button mt-auto">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #2: Minecraft -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-mc.png" alt="Minecraft game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Minecraft</h2>
+                                        <div>
+                                            <span class="badge genre">sandbox</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                            <span class="badge platform">PC</span>
+                                            <span class="badge platform">console</span>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <p class="card-text py-2">Minecraft is a video game in which players create and break apart various kinds of blocks in three-dimensional worlds.</p>
+                                <a href="https://www.minecraft.net/en-us" class="btn visit-button mt-auto">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #3: Sims 4 -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">  
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-sims.webp" alt="The Sims 4 game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">The Sims 4</h2>
+                                        <div>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">The Sims FreePlay is a strategic life simulation game developed by EA Mobile and later with Firemonkeys Studios.</p>
+                                <a href="https://www.ea.com/games/the-sims/the-sims-4" class="btn visit-button mt-auto">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card #4: Roblox -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-roblox.png" alt="Roblox game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Roblox</h2>
+                                        <div>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Roblox allows users to program games and play games created by other users.</p>
+                                <a href="https://www.roblox.com/" class="btn visit-button mt-auto">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #5: Animal Crossing: New Horizons -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-animal-crossing.png" alt="Animal Crossing: New Horizons game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Animal Crossing: New Horizons</h2>
+                                        <div>
+                                            <span class="badge genre">simulation</span>
+                                            <span class="badge genre">cozy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">In Animal Crossing, the player character is a human who lives in a village inhabited by various anthropomorphic animals.</p>
+                                <a href="https://www.animal-crossing.com/new-horizons/" class="btn visit-button">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Card #6: Candy Crush Saga-->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-candy-crush.png" alt="Candy Crush Saga game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Candy Crush Saga</h2>
+                                        <div>
+                                            <span class="badge genre">puzzle</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Candy Crush Saga is a puzzle game that involves making matches of 3 or more colored candy pieces. </p>
+                                <a href="https://www.king.com/game/candycrush" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Card #7: Valorant -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-valorant.png" alt="Valorant game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Valorant</h2>
+                                        <div>
+                                            <span class="badge genre">FPS</span>
+                                            <span class="badge genre">tactical shooter</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Valorant is a tactical shooting game involving two teams with 5 players in each team.</p>
+                                <a href="https://playvalorant.com/en-us/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #8: Cats & Soup -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-cats-and-soup.png" alt="Cats & Soup game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Cats & Soup</h2>
+                                        <div>
+                                            <span class="badge genre">cozy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Cats and Soup is an idle game. You will have to assist cute kitties to make sumptuous food for their customers.</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.hidea.cat&hl=en_US&gl=US" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #9: Subway Surfers -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-subway-surfers.png" alt="Subway Surfers game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Subway Surfers</h2>
+                                        <div>
+                                            <span class="badge genre">endless runner</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">DASH as fast as you can! DODGE the oncoming trains! Help Jake, Tricky & Fresh escape from the grumpy Inspector and his dog.</p>
+                                <a href="https://subwaysurfers.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card #10: Jetpack Joyride -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-jetpack-joyride.jpg" alt="Jetpack Joyride game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Jetpack Joyride</h2>
+                                        <div>
+                                            <span class="badge genre">endless runner</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Strap on a bullet-powered jetpack to dodge lasers, electric fields and all the missiles that come your way.</p>
+                                <a href="https://www.halfbrick.com/games/jetpack-joyride" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #11: Hedgehog launcher -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-hedgehog.png" alt="Hedgehog Launcher game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Hedgehog Launch</h2>
+                                        <div>
+                                            <span class="badge genre">action</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Try to launch your hedgehog into space in as few days as possible. Earn money by bouncing off platforms and hitting coins to buy upgrades.</p>
+                                <a href="https://www.crazygames.com/game/hedgehog-launch" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #12: Castle Story -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-castle-story.jpg" alt="Castle Story game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Castle Story</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Build a  kingdom, filled with fantasy buildings, heroes and villains, and adorable animals!</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.playinfinity.game.castlestory&hl=en_US&gl=US" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card #13: Overcooked 2 -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-overcooked2.avif" alt="Overcooked 2 game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Overcooked 2</h2>
+                                        <div>
+                                            <span class="badge genre">party</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Cooperatively prepare and cook orders in teams of up to four players. Players gather, chop, and cook ingredients, combine them on plates, serve dishes, and wash dishes.</p>
+                                <a href="https://www.team17.com/games/overcooked-2/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card #14: Plants vs Zombies -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-plants-vs-zombies.png" alt="Plants vs. Zombies game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Plants Vs. Zombies</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">strategy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">This game involves homeowners who use various different plants to prevent waves of zombies from entering their houses and "eating their brains".</p>
+                                <a href="https://www.ea.com/ea-studios/popcap/plants-vs-zombies" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #15: Runescape -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-runescape.png" alt="Runescape game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Runescape</h2>
+                                        <div>
+                                            <span class="badge genre">fantasy</span>
+                                            <span class="badge genre">social</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Runescape is a high fantasy open world. Explore an ever changing and evolving living world where new challenges, skills, and quests await.</p>
+                                <a href="https://play.runescape.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #16: Temple Run -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-temple-run.png" alt="Temple Run game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Temple Run</h2>
+                                        <div>
+                                            <span class="badge genre">arcade</span>
+                                            <span class="badge genre">traditional</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Play an xplorer who has obtained an ancient relic and runs from demonic monkey-like creatures chasing him whilst dodging obstacles.</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.imangi.templerun&hl=en_US&gl=US" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #17: Just Dance -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-just-dance.png" alt="Just Dance game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Just Dance</h2>
+                                        <div>
+                                            <span class="badge genre">party</span>
+                                            <span class="badge genre">dancing</span>
+                                            <span class="badge genre">exercise</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Just Dance is a motion-based dance video game series, with each game including a collection of classic and modern songs each with its own dance choreographies.</p>
+                                <a href="https://justdancenow.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #18: Club Penguin -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-club-penguin.png" alt="Club Penguin game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Club Penguin</h2>
+                                        <div>
+                                            <span class="badge genre">social</span>
+                                            <span class="badge genre">interactive</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Club Penguin involves a virtual world that contains a range of online games and activities. Players play cartoon penguin-avatars in an antarctic-themed open-world.</p>
+                                <a href="https://newcp.net/en/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #19: NBA 2K -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-nba-2k.webp" alt="NBA 2K game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">NBA 2K</h2>
+                                        <div>
+                                            <span class="badge genre">sports</span>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">NBA2K allows the player to compete in basketball games with the current NBA season's players and teams. Players can even create customizable athletes!</p>
+                                <a href="https://nba.2k.com/2k23/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #20: NASCAR Race -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-nascar.png" alt="NASCAR Race game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">NASCAR Race</h2>
+                                        <div>
+                                            <span class="badge genre">racing</span>
+                                            <span class="badge genre">sports</span>
+                                            <span class="badge genre">simulation</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">In NASCAR Race, deal the cards and begin rolling the dice to disqualify your cars while the remaining cars race to the finish line. Hold the winning car's card and you win!</p>
+                                <a href="https://www.iracing.com/nascar-game/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #21: League of Legends -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-league-of-legends.png" alt="League of Legends game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">League of Legends</h2>
+                                        <div>
+                                            <span class="badge genre">MOBA</span>
+                                            <span class="badge genre">action-role playing</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</p>
+                                <a href="https://www.leagueoflegends.com/en-us/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #22: Overwatch -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-overwatch.webp" alt="Overwatch game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Overwatch</h2>
+                                        <div>
+                                            <span class="badge genre">FPS</span>
+                                            <span class="badge genre">fighting</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Overwatch is set in a future where a conflict between robots and humanity necessitated the creation of a task force, conveniently called "Overwatch."</p>
+                                <a href="https://overwatch.blizzard.com/en-us/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #23: Pummel Party -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-pummel-party.jpg" alt="Pummel Party game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Pummel Party</h2>
+                                        <div>
+                                            <span class="badge genre">indie</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">casual</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Pummel friends or AI using a wide array of absurd items in the board mode and compete to destroy friendships in the unique collection of minigames.</p>
+                                <a href="http://rebuiltgames.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #24: Bloons TD 6 -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-bloons.jpg" alt="Bloons TD 6 game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Bloons TD 6</h2>
+                                        <div>
+                                            <span class="badge genre">tower defense</span>
+                                            <span class="badge genre">puzzle</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">TD 6 is to prevent enemy balloons("Bloons"), from traversing a track and taking lives. The player achieves this by using a combination of monkey-based towers to pop the Bloons before they can escape.</p>
+                                <a href="https://btd6.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #25: Fall Guys -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-fall-guys.png" alt="Fall Guys game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Fall Guys</h2>
+                                        <div>
+                                            <span class="badge genre">battle royale</span>
+                                            <span class="badge genre">platform</span>
+                                            <span class="badge genre">sports</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Fall Guys: Ultimate Knockout flings hordes of contestants together online in a wild dash through round after round of escalating chaos until one victor remains.</p>
+                                <a href="https://www.fallguys.com/en-US" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #26: TableTop Simulator -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-tabletop-simulator.png" alt="TableTop Simulator game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">TableTop Simulator</h2>
+                                        <div>
+                                            <span class="badge genre">casual</span>
+                                            <span class="badge genre">indie</span>
+                                            <span class="badge genre">strategy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Tabletop Simulator is a physics sandbox, without set victory or failure conditions. Players interact with the game by spawning and moving virtual pieces, which are subject to a physics simulation.</p>
+                                <a href="https://www.tabletopsimulator.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #27: Abzu -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-abzu.png" alt="Abzu game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Abzu</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">art</span>
+                                            <span class="badge genre">action</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Abzu is an underwater exploration adventure in a world where the waters are desolate. You are a diver who explores the depths of the ocean and tries to introduce marine animals back into areas that are void of life.</p>
+                                <a href="https://abzugame.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #28: Among Us -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-among-us.jpg" alt="Among Us game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Among Us</h2>
+                                        <div>
+                                            <span class="badge genre">party</span>
+                                            <span class="badge genre">survival</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Among Us is a multiplayer game where 10 players get dropped into an alien spaceship, sky headquarters, or planet base, where each player is either a “crewmate” and an “impostor.”</p>
+                                <a href="https://www.innersloth.com/games/among-us/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #29: Slapshot Rebound -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-slapshot-rebound.jpg" alt="Slapshot Rebound game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Slapshot Rebound</h2>
+                                        <div>
+                                            <span class="badge genre">casual</span>
+                                            <span class="badge genre">sports</span>
+                                            <span class="badge genre">arcade</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">PC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Slapshot: Rebound is a physics-based multiplayer game where you play an arcade style match of hockey. It's up to you and your team to take control of the puck, pass, shoot, outplay your opponents</p>
+                                <a href="https://slapshot.gg/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #30: It Takes Two -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-it-takes-two.jpg" alt="It Takes Two game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">It Takes Two</h2>
+                                        <div>
+                                            <span class="badge genre">platform</span>
+                                            <span class="badge genre">puzzle</span>
+                                            <span class="badge genre">action adventure</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">cross-platform</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Trapped, they're reluctantly challenged with saving their fractured relationship by the suave love guru Dr. Hakim.</p>
+                                <a href="https://www.ea.com/games/it-takes-two" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #31: The Legend of Zelda: Breath of the Wild -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-zelda.jpg" alt="The Legend of Zelda: Breath of the Wild game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">The Legend of Zelda: Breath of the Wild</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">role-playing</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Step into a world of discovery and adventure in this boundary-breaking new game in the acclaimed series. Discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure.</p>
+                                <a href="https://www.zelda.com/breath-of-the-wild/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #32: The Adventure Pals -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-adventure-pals.avif" alt="The Adventure Pals game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">The Adventure Pals</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">platformer</span>
+                                            <span class="badge genre">indie</span>
+                                            <span class="badge genre">rpg</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Your dad has been dadnapped and you, your pet rock, and a tongue-helicoptering giraffe must fight your way through levels filled with platforming, bizarre enemies, and big bosses to save the world!</p>
+                                <a href="https://massivemonster.co/games/the-adventure-pals" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #33: The Swords of Ditto: Mormo's Curse -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-swords-of-ditto.jpg" alt="The Swords of Ditto: Mormo's Curse game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">The Swords of Ditto: Mormo's Curse</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">indie</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">The Swords of Ditto is a roguelite action RPG that creates a unique adventure for each new hero of legend in the relentless fight against the evil Mormo</p>
+                                <a href="https://www.devolverdigital.com/games/the-swords-of-ditto" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #34: Bird Alone -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-bird-alone.jpg" alt="Bird Alone game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Bird Alone</h2>
+                                        <div>
+                                            <span class="badge genre">therapy/span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Befriend a lonely parrot who is inquisitive and thoughtful; check in every day to compose poetry, make music, and chat about existential topics. The game grows with you, transforming into blooming gardens and art-filled museums.</p>
+                                <a href="https://www.georgebatchelor.com/birdalone" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #35: A Way Out -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-a-way-out.webp" alt="A Way Out game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">A Way Out</h2>
+                                        <div>
+                                            <span class="badge genre">action</span>
+                                            <span class="badge genre">adventure</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">A Way Out is an exclusively co-op adventure where you play the role of one of two prisoners making their daring escape from prison</p>
+                                <a href="https://www.ea.com/games/a-way-out" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #36: Brothers: a Tale of Two Sons -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-brothers-tale.jpg" alt="Brothers: A Tale of Two Sons game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Brothers: A Tale of Two Sons</h2>
+                                        <div>
+                                            <span class="badge genre">adventure</span>
+                                            <span class="badge genre">atmospheric</span>
+                                            <span class="badge genre">story-rich</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Guide two brothers on an epic fairy tale journey. Control both brothers at once as you experience co-op play in single player mode, like never before</p>
+                                <a href="https://store.steampowered.com/app/225080/Brothers__A_Tale_of_Two_Sons/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #37: Unravel Two -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-unravel-two.jpg" alt="Unravel Two game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Unravel Two</h2>
+                                        <div>
+                                            <span class="badge genre">puzzle</span>
+                                            <span class="badge genre">action</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Unravel Two is a platforming adventure game seen from a unique perspective, or two. Play as a pair of Yarnys to run, jump, and swing through platforming puzzles, foster friendship, and shed light on a world covered in shadow</p>
+                                <a href="https://www.ea.com/games/unravel/unravel-two" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #38: Guacamelee! Super Turbo Championship Edition -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-guacamelee.jpg" alt="Guacamelee! Super Turbo Championship Edition game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Guacamelee! Super Turbo Championship Edition</h2>
+                                        <div>
+                                        <span class="badge genre">metroidvania</span>
+                                        <span class="badge genre">action</span>
+                                        <span class="badge genre">platformer</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single/multi player</span>
+                                        </div>
+                                        <div>
+                                        <span class="badge platform">PC</span>
+                                        <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">Guacamelee! is a Metroidvania-style action-platformer set in a magical world inspired by traditional Mexican culture and folklore. The game features melee combat, parallel dimensions and same-screen co-op.</p>
+                                <a href="https://www.drinkboxstudios.com/games/guacamelee-super-turbo-championship-edition/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #39: Broforce -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-broforce.webp" alt="Broforce game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Broforce</h2>
+                                        <div>
+                                            <span class="badge genre">action</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge bg-primary">single/multi player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">console</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">When evil threatens the world, the world calls on Broforce - an under-funded, over-powered paramilitary organization. Run 'n' gun as dozens of different bros and eliminate the opposing terrorist forces.</p>
+                                <a href="https://www.broforcegame.com/" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #40: Boba Tale -->
+                    <div class="col-md-6 col-xl-3 d-flex">  
+                        <div class="card mb-4">
+                            <div class="card-body d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-sm-auto col-xl-12">
+                                        <img src="../img/game-boba-tale.jpg" alt="Boba Tale game poster" class="pb-3 img-fluid d-none d-md-block">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h2 class="card-title">Boba Tale</h2>
+                                        <div>
+                                            <span class="badge genre">cozy</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge player">single player</span>
+                                        </div>
+                                        <div>
+                                            <span class="badge platform">mobile</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text py-2">You are now a proud owner of a bubble tea shop! Start your adventure by making drinks for the folks in town, and upgrade your shop and drink recipes to build your boba empire</p>
+                                <a href="https://play.google.com/store/apps/details?id=com.bobafriends.bobastory&hl=en_US&gl=US&pli=1" class="btn visit-button mt-auto">Visit Website</a>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    
+    <footer class="my-footer">
+        <div class="footer-info">
+          <p>&copy; Game Hub 2023: Cheryl Feng, Angielena Luong, Kevin Vo, Jasmine Wong</p>
+        </div>
+    </footer>
+</body>
+</html>

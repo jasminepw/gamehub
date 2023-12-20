@@ -1,0 +1,38 @@
+[
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "genre": ["fantasy", "action", "role-playing"],
+      "players": "single player",
+      "platform": ["console"],
+      "description": "Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new name in the acclaimed series. Travel across vast fields, through forests, and to mountain peaks as you discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure.",
+      "img": "/img/game-zelda.jpg",
+      "website": "https://www.zelda.com/breath-of-the-wild/"
+    },
+    {
+      "name": "The Adventure Pals",
+      "genre": ["adventure", "action", "role-playing"],
+      "players": "single player",
+      "platform": ["console"],
+      "description": "The Adventure Pals is an epic adventure platformer fueled by imagination, freindship, and the dark side of hot dogs. Your dad has been dadnaped and you, your pet rock, and a tongue-helicoptering giraffe must fight your way through levels filled with platforming, bizarre enemies, and big bosses to save the world!",
+      "img": "/img/game-adventure-pals.avif",
+      "website": "https://massivemonster.co/games/the-adventure-pals"
+    },
+    {
+      "name": "The Swords of Ditto: Mormo's Curse",
+      "genre": ["adventure", "action", "indie"],
+      "players": "single/multi player",
+      "platform": ["console"],
+      "description": "Now reimagined and expanded in the new Mormo's Curse update, the Swords of Ditto is a roguelite action RPG that creates a unique adventure for each new hero of legend in the relentless fight against the evil Mormo",
+      "img": "/img/game-swords-of-ditto.jpg",
+      "website": "https://www.devolverdigital.com/games/the-swords-of-ditto"
+    },
+    {
+      "name": "Bird Alone",
+      "genre": ["therapy", "indie"],
+      "players": "single player",
+      "platform": ["mobile"],
+      "description": "Befriend a lonely parrot in the poignant Bird Alone. Your peppy new buddy is inquisitive and thoughtful; check in every day to compose poetry, make music, and chat about existential topics. As your friendship grows, so does the name, transforming empty spaces into blooming gardens and art-filled museums. It turns out teh bird isn't alone after all. And neither are you.",
+      "img": "/img/game-bird-alone.jpg",
+      "website": "https://www.georgebatchelor.com/birdalone"
+    }
+]

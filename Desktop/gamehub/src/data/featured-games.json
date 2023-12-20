@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Unpacking",
+    "genre": ["cozy", "puzzle"],
+    "players": "single player",
+    "platform": ["console", "PC"],
+    "description": "Unpacking is a name about the familiar experience of pulling possessions out of boxes and fitting them into a new home.",
+    "img": "/img/game-unpacking.png",
+    "website": "https://www.unpackinggame.com/"
+  },
+  {
+    "name": "Boba Tale",
+    "genre": ["cozy"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "You are now a proud owner of a bubble tea shop! Start your adventure by making drinks for the folks in town, and upgrade your shop and drink recipes to build your boba empire.",
+    "img": "/img/game-boba-tale.jpg",
+    "website": "https://play.google.com/store/apps/details?id=com.bobafriends.bobastory&hl=en_US&gl=US&pli=1"
+  },
+  {
+    "name": "Overcooked 2",
+    "genre": ["party", "action", "simulation"],
+    "players": "multi player",
+    "platform": ["console"],
+    "description": "Cooperatively prepare and cook orders in teams of up to four players. Players gather, chop, and cook ingredients, combine them on plates, serve dishes, and wash dishes.",
+    "img": "/img/game-overcooked2.avif",
+    "website": "https://www.team17.com/games/overcooked-2/"
+  },
+  {
+    "name": "Unravel Two",
+    "genre": ["puzzle", "action"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "Unravel Two is a platforming adventure name seen from a unique perspective, or two. Play as a pair of Yarnys - small beings made of yarn and connected by a single thread.. Run, jump, and swing through platforming puzzles, foster friendship, and shed light on a world covered in shadow",
+    "img": "/img/game-unravel-two.jpg",
+    "website": "https://www.ea.com/games/unravel/unravel-two"
+  },
+  {
+    "name": "Valorant",
+    "genre": ["FPS", "tactical shooter"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Valorant is a tactical shooting name involving two teams with 5 players in each team.",
+    "img": "/img/game-valorant.png",
+    "website": "https://playvalorant.com/en-us/"
+  },
+  {
+    "name": "Slapshot Rebound",
+    "genre": ["sports"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Slapshot: Rebound is a physics-based multiplayer name where you play an arcade style match of hockey. No shoot button, no puck glue, no RNG. It's up to you and your team to take control of the puck, pass, shoot, outplay your opponents",
+    "img": "/img/game-slapshot-rebound.jpg",
+    "website": "https://slapshot.gg/"
+  },
+  {
+    "name": "A Way Out",
+    "genre": ["action", "adventure"],
+    "players": "multi player",
+    "platform": ["console"],
+    "description": "A Way Out is an exclusively co-op adventure where you play the role of one of two prisoners making their daring escape from prison",
+    "img": "/img/game-a-way-out.webp",
+    "website": "https://www.ea.com/games/a-way-out"
+  },
+  {
+    "name": "Minecraft",
+    "genre": ["sandbox", "adventure", "survival"],
+    "players": "single/multi player",
+    "platform": ["mobile", "PC", "console", "cross-platform"],
+    "description": "Minecraft is a video name in which players create and break apart various kinds of blocks in three-dimensional worlds.",
+    "img": "/img/game-mc.png",
+    "website": "https://www.minecraft.net/en-us"
+  }
+]

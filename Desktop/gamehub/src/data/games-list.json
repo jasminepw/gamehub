@@ -1,0 +1,362 @@
+[
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genre": ["fantasy", "action", "role-playing"],
+    "players": "single player",
+    "platform": ["console"],
+    "description": "Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new name in the acclaimed series. Travel across vast fields, through forests, and to mountain peaks as you discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure.",
+    "img": "/img/game-zelda.jpg",
+    "website": "https://www.zelda.com/breath-of-the-wild/"
+  },
+  {
+    "name": "The Adventure Pals",
+    "genre": ["adventure", "action", "role-playing"],
+    "players": "single player",
+    "platform": ["console"],
+    "description": "The Adventure Pals is an epic adventure platformer fueled by imagination, freindship, and the dark side of hot dogs. Your dad has been dadnaped and you, your pet rock, and a tongue-helicoptering giraffe must fight your way through levels filled with platforming, bizarre enemies, and big bosses to save the world!",
+    "img": "/img/game-adventure-pals.avif",
+    "website": "https://massivemonster.co/games/the-adventure-pals"
+  },
+  {
+    "name": "The Swords of Ditto: Mormo's Curse",
+    "genre": ["adventure", "action", "indie"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "Now reimagined and expanded in the new Mormo's Curse update, the Swords of Ditto is a roguelite action RPG that creates a unique adventure for each new hero of legend in the relentless fight against the evil Mormo",
+    "img": "/img/game-swords-of-ditto.jpg",
+    "website": "https://www.devolverdigital.com/games/the-swords-of-ditto"
+  },
+  {
+    "name": "Bird Alone",
+    "genre": ["therapy", "indie"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "Befriend a lonely parrot in the poignant Bird Alone. Your peppy new buddy is inquisitive and thoughtful; check in every day to compose poetry, make music, and chat about existential topics. As your friendship grows, so does the name, transforming empty spaces into blooming gardens and art-filled museums. It turns out teh bird isn't alone after all. And neither are you.",
+    "img": "/img/game-bird-alone.jpg",
+    "website": "https://www.georgebatchelor.com/birdalone"
+  },
+  {
+    "name": "A Way Out",
+    "genre": ["action", "adventure"],
+    "players": "multi player",
+    "platform": ["console"],
+    "description": "A Way Out is an exclusively co-op adventure where you play the role of one of two prisoners making their daring escape from prison",
+    "img": "/img/game-a-way-out.webp",
+    "website": "https://www.ea.com/games/a-way-out"
+  },
+  {
+    "name": "Brothers: a Tale of Two Sons",
+    "genre": ["adventure"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "Guide two brothers on an epic fairy tale journey. Control both brothers at once as you experience co-op play in single player mode, like never before",
+    "img": "/img/game-brothers-tale.jpg",
+    "website": "https://store.steampowered.com/app/225080/Brothers__A_Tale_of_Two_Sons/"
+  },
+  {
+    "name": "Unravel Two",
+    "genre": ["puzzle", "action"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "Unravel Two is a platforming adventure name seen from a unique perspective, or two. Play as a pair of Yarnys - small beings made of yarn and connected by a single thread.. Run, jump, and swing through platforming puzzles, foster friendship, and shed light on a world covered in shadow",
+    "img": "/img/game-unravel-two.jpg",
+    "website": "https://www.ea.com/games/unravel/unravel-two"
+  },
+  {
+    "name": "Guacamelee! Super Turbo Championship Edition",
+    "genre": ["action"],
+    "players": "single/multi player",
+    "platform": ["console", "PC"],
+    "description": "Guacamelee! is a Metroidvania-style action-platformer set in a magical world inspired by traditional Mexican culture and folklore. The name features melee combat, parallel dimensions and same-screen co-op.",
+    "img": "/img/game-guacamelee.jpg",
+    "website": "https://www.drinkboxstudios.com/games/guacamelee-super-turbo-championship-edition/"
+  },
+  {
+    "name": "Broforce",
+    "genre": ["action"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "When evil threatens the world, the world calls on Broforce - an under-funded, over-powered paramilitary organization dealing exclusively in excessive force. Brace your loins with up to four players to run 'n' gun as dozens of different bros and elminate the opposing terrorist forces that threaten our way of life.",
+    "img": "/img/game-broforce.webp",
+    "website": "https://www.broforcegame.com/"
+  },
+  {
+    "name": "Boba Tale",
+    "genre": ["cozy"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "You are now a proud owner of a bubble tea shop! Start your adventure by making drinks for the folks in town, and upgrade your shop and drink recipes to build your boba empire.",
+    "img": "/img/game-boba-tale.jpg",
+    "website": "https://play.google.com/store/apps/details?id=com.bobafriends.bobastory&hl=en_US&gl=US&pli=1"
+  },
+  {
+    "name": "Unpacking",
+    "genre": ["cozy", "puzzle"],
+    "players": "single player",
+    "platform": ["console", "PC"],
+    "description": "Unpacking is a name about the familiar experience of pulling possessions out of boxes and fitting them into a new home.",
+    "img": "/img/game-unpacking.png",
+    "website": "https://www.unpackinggame.com/"
+  },
+  {
+    "name": "Minecraft",
+    "genre": ["sandbox", "adventure", "survival"],
+    "players": "single/multi player",
+    "platform": ["mobile", "PC", "console", "cross-platform"],
+    "description": "Minecraft is a video name in which players create and break apart various kinds of blocks in three-dimensional worlds.",
+    "img": "/img/game-mc.png",
+    "website": "https://www.minecraft.net/en-us"
+  },
+  {
+    "name": "The Sims 4",
+    "genre": ["simulation"],
+    "players": "single player",
+    "platform": ["PC", "console"],
+    "description": "The Sims FreePlay is a strategic life simulation name developed by EA Mobile and later with Firemonkeys Studios.",
+    "img": "/img/game-sims.webp",
+    "website": "https://www.ea.com/games/the-sims/the-sims-4"
+  },
+  {
+    "name": "Roblox",
+    "genre": ["simulation"],
+    "players": "single/multi player",
+    "platform": ["PC", "mobile", "console", "cross-platform"],
+    "description": "Roblox is an online name platform and name creation system developed by Roblox Corporation that allows users to program games and play games created by other users.",
+    "img": "/img/game-roblox.png",
+    "website": "https://www.roblox.com/"
+  },
+  {
+    "name": "Animal Crossing: New Horizons",
+    "genre": ["cozy", "simulation"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "In Animal Crossing, the player character is a human who lives in a village inhabited by various anthropomorphic animals and can do various activities like fishing, bug catching, and fossil hunting.",
+    "img": "/img/game-animal-crossing.png",
+    "website": "https://www.animal-crossing.com/new-horizons/"
+  },
+  {
+    "name": "Candy Crush Saga",
+    "genre": ["puzzle"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "Candy Crush Saga is a puzzle name that involves making matches of 3 or more colored candy pieces.",
+    "img": "/img/game-candy-crush.png",
+    "website": "https://www.king.com/name/candycrush"
+  },
+  {
+    "name": "Valorant",
+    "genre": ["FPS", "tactical shooter"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Valorant is a tactical shooting name involving two teams with 5 players in each team.",
+    "img": "/img/game-valorant.png",
+    "website": "https://playvalorant.com/en-us/"
+  },
+  {
+    "name": "Cats & Soup",
+    "genre": ["cozy"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "Cats and Soup is an idle name. You will have to assist cute kitties to make sumptuous food for their customers.",
+    "img": "/img/game-cats-and-soup.png",
+    "website": "https://play.google.com/store/apps/details?id=com.hidea.cat&hl=en_US&gl=US"
+  },
+  {
+    "name": "Subway Surfers",
+    "genre": ["endless runner"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "DASH as fast as you can! DODGE the oncoming trains! Help Jake, Tricky & Fresh escape from the grumpy Inspector and his dog.",
+    "img": "/img/game-subway-surfers.png",
+    "website": "https://subwaysurfers.com/"
+  },
+  {
+    "name": "Jetpack Joyride",
+    "genre": ["endless runner"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "Strap on a bullet-powered jetpack to dodge lasers, electric fields and all the missiles that come your way.",
+    "img": "/img/game-jetpack-joyride.jpg",
+    "website": "https://www.halfbrick.com/games/jetpack-joyride"
+  },
+  {
+    "name": "Hedgehog Launcher",
+    "genre": ["action"],
+    "players": "single player",
+    "platform": ["PC"],
+    "description": "In this name, try to launch your hedgehog into space in as few days as possible. Earn money by bouncing off platforms and hitting coins to buy upgrades.",
+    "img": "/img/game-hedgehog.png",
+    "website": "https://www.crazygames.com/name/hedgehog-launch"
+  },
+  {
+    "name": "Castle Story",
+    "genre": ["strategy", "adventure"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "Build a  kingdom, filled with fantasy buildings, heroes and villains, and adorable animals!",
+    "img": "/img/game-castle-story.jpg",
+    "website": "https://play.google.com/store/apps/details?id=com.playinfinity.name.castlestory&hl=en_US&gl=US"
+  },
+  {
+    "name": "Overcooked 2",
+    "genre": ["party", "action", "simulation"],
+    "players": "multi player",
+    "platform": ["console"],
+    "description": "Cooperatively prepare and cook orders in teams of up to four players. Players gather, chop, and cook ingredients, combine them on plates, serve dishes, and wash dishes.",
+    "img": "/img/game-overcooked2.avif",
+    "website": "https://www.team17.com/games/overcooked-2/"
+  },
+  {
+    "name": "Plants vs. Zombies",
+    "genre": ["strategy", "defense"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "This name involves homeowners who use various different plants to prevent waves of zombies from entering their houses and eating their brains.",
+    "img": "/img/game-plants-vs-zombies.png",
+    "website": "https://www.ea.com/ea-studios/popcap/plants-vs-zombies"
+  },
+  {
+    "name": "Runescape",
+    "genre": ["fantasy", "social"],
+    "players": "single/multi player",
+    "platform": ["PC"],
+    "description": "Runescape is a high fantasy open world. Explore an ever changing and evolving living world where new challenges, skills, and quests await.",
+    "img": "/img/game-runescape.png",
+    "website": "https://play.runescape.com/"
+  },
+  {
+    "name": "Temple Run",
+    "genre": ["endless runner"],
+    "players": "single player",
+    "platform": ["mobile"],
+    "description": "The player controls an explorer who has obtained an ancient relic and runs from demonic monkey-like creatures chasing him whilst dodging obstacles.",
+    "img": "/img/game-temple-run.png",
+    "website": "https://play.google.com/store/apps/details?id=com.imangi.templerun&hl=en_US&gl=US"
+  },
+  {
+    "name": "Just Dance",
+    "genre": ["party"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "Just Dance is a motion-based dance video name for single/multiple player(s), with each name including a collection of classic and modern songs each with its own dance choreographies.",
+    "img": "/img/game-just-dance.png",
+    "website": "https://justdancenow.com/"
+  },
+  {
+    "name": "Club Penguin",
+    "genre": ["social"],
+    "players": "single/multi player",
+    "platform": ["PC"],
+    "description": "Club Penguin involves a virtual world that contains a range of online games and activities. Players use cartoon penguin-avatars and played in an antarctic-themed open-world.",
+    "img": "/img/game-club-penguin.png",
+    "website": "https://newcp.net/en/"
+  },
+  {
+    "name": "NBA 2K",
+    "genre": ["sports"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "NBA2K allows the player to compete in basketball games with the current NBA season's players and teams. Many different name modes are present, including one in which the player can create customizable player",
+    "img": "/img/game-nba-2k.webp",
+    "website": "https://nba.2k.com/2k23/"
+  },
+  {
+    "name": "NASCAR Race",
+    "genre": ["sports"],
+    "players": "single/multi player",
+    "platform": ["console"],
+    "description": "In NASCAR Race, line up the racecars at the starting gate, deal the cards and begin rolling the dice to disqualify your cars and start building your “pot”. The remaining cars race to the finish line. Hold the winning car's card and you win!",
+    "img": "/img/game-nascar.png",
+    "website": "https://www.iracing.com/nascar-name/"
+  },
+  {
+    "name": "League of Legends",
+    "genre": ["action", "role-playing"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "League of Legends is a team-based strategy name where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.",
+    "img": "/img/game-league-of-legends.png",
+    "website": "https://www.leagueoflegends.com/en-us/"
+  },
+  {
+    "name": "Overwatch",
+    "genre": ["FPS"],
+    "players": "multi player",
+    "platform": ["PC", "console", "cross-platform"],
+    "description": "Overwatch is a first-person multiplayer shooter, set in a future where a conflict between robots and humanity necessitated the creation of a task force, conveniently called Overwatch.",
+    "img": "/img/game-overwatch.webp",
+    "website": "https://overwatch.blizzard.com/en-us/"
+  },
+  {
+    "name": "Pummel Party",
+    "genre": ["indie", "action"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Pummel Party is a 4-8 player online and local-multiplayer party name. Pummel friends or AI using a wide array of absurd items in the board mode and compete to destroy friendships in the unique collection of minigames.",
+    "img": "/img/game-pummel-party.jpg",
+    "website": "http://rebuiltgames.com/"
+  },
+  {
+    "name": "Bloons TD 6",
+    "genre": ["puzzle", "defense"],
+    "players": "multi player",
+    "platform": ["mobile", "PC", "cross-platform"],
+    "description": "TD 6 is to prevent enemy balloons, referred to as Bloons, from traversing a track and taking lives. The player achieves this by using a combination of monkey-based towers to pop the Bloons before they can escape.",
+    "img": "/img/game-bloons.jpg",
+    "website": "https://btd6.com/"
+  },
+  {
+    "name": "Fall Guys",
+    "genre": ["sports"],
+    "players": "multi player",
+    "platform": ["console", "PC", "cross-platform"],
+    "description": "Fall Guys: Ultimate Knockout flings hordes of contestants together online in a wild dash through round after round of escalating chaos until one victor remains.",
+    "img": "/img/game-fall-guys.png",
+    "website": "https://www.fallguys.com/en-US"
+  },
+  {
+    "name": "TableTop Simulator",
+    "genre": ["indie", "strategy"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Tabletop Simulator is a player-driven physics sandbox, without set victory or failure conditions. After selecting a table to play on, players interact with the name by spawning and moving virtual pieces, which are subject to a physics simulation.",
+    "img": "/img/game-tabletop-simulator.png",
+    "website": "https://www.tabletopsimulator.com/"
+  },
+  {
+    "name": "Abzu",
+    "genre": ["adventure", "action"],
+    "players": "single player",
+    "platform": ["console", "PC"],
+    "description": "Abzu is an underwater exploration adventure. You play as a diver who explores the depths of the ocean. One of your main tasks is to introduce marine animals back into areas that are void of life. This name takes place in an unknown alternate world where some war or conflict has left the waters in desolate conditions.",
+    "img": "/img/game-abzu.png",
+    "website": "https://abzugame.com/"
+  },
+  {
+    "name": "Among Us",
+    "genre": ["party", "survival"],
+    "players": "multi player",
+    "platform": ["PC", "mobile", "cross-platform"],
+    "description": "Among Us is a multiplayer name where 10 players get dropped into an alien spaceship, sky headquarters or planet base, where each player is designated with a private role of either a “crewmate” and an “impostor.”",
+    "img": "/img/game-among-us.jpg",
+    "website": "https://www.innersloth.com/games/among-us/"
+  },
+  {
+    "name": "Slapshot Rebound",
+    "genre": ["sports"],
+    "players": "multi player",
+    "platform": ["PC"],
+    "description": "Slapshot: Rebound is a physics-based multiplayer name where you play an arcade style match of hockey. No shoot button, no puck glue, no RNG. It's up to you and your team to take control of the puck, pass, shoot, outplay your opponents",
+    "img": "/img/game-slapshot-rebound.jpg",
+    "website": "https://slapshot.gg/"
+  },
+  {
+    "name": "It Takes Two",
+    "genre": ["puzzle", "adventure"],
+    "players": "multi player",
+    "platform": ["console", "PC", "cross-platform"],
+    "description": "Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Trapped in a fantastical world, they're reluctantly challenged with saving their fractured relationship by the suave love guru Dr. Hakim.",
+    "img": "/img/game-it-takes-two.jpg",
+    "website": "https://www.ea.com/games/it-takes-two"
+  }
+]

@@ -1,0 +1,147 @@
+<!-- THIS IS THE GAME QUIZ PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub - Quiz</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../img/video-game.png" aria-label="Game hub logo">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Lexend+Deca:wght@300;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar with LOGO, Home, Quiz, Games, Friends -->
+    <nav class="navigation-bar">
+        <div class="web-app-logo">
+          <img class="game-hub-logo" src="../img/logo-black.png" alt="Game Hub Logo">
+        </div>
+
+        <div class="nav-bar-tabs">
+          <ul class="navtabs">
+            <li class="tab"><a href="../index.html">Home</a></li>
+            <li class="tab"><a href="quiz.html">Quiz</a></li>
+            <li class="tab"><a href="games.html">Games</a></li>
+            <li class="tab"><a href="friends.html">Friends</a></li>
+          </ul>
+        </div>
+
+
+        <div class="toggle-menu">
+          <a href="#">
+            <i class="fa fa-bars" aria-label="menu"></i>
+          </a>
+        </div>
+      </nav>
+
+      <header>
+        <h1 class="welcome-bold text-center p-3">Quiz: Find your Perfect Games</h1>
+      </header>
+    <main>
+
+        <div class="quiz-container">
+            <div class="quiz-box">
+                <form class="form">
+                    <div class="my-form">
+                        <label for="alias" class="label-alias"></label>
+                            Name/Alias
+                        </label>
+
+                        <input type="text" class="alias border border-1 rounded border-dark" placeholder="Enter your name/alias "/>
+                    </div>
+
+                    <div class="my-form">
+                        <label for="email" class="label-email"></label>
+                            Email
+                        </label>
+
+                        <input type="email" class="email border border-1 rounded border-dark" placeholder="Enter your email "/>
+                    </div>
+
+                    <div class="my-form">
+                        <label for="age" class="label-age"></label>
+                            Age
+                        </label>
+
+                        <input type="age" class="age border border-1 rounded border-dark" placeholder="Enter your Age "/>
+                    </div>
+                    <br>
+                    <div class="form-control border border-2 rounded border-dark">
+                        <label class="question">Single player or Multiplayer?
+                        </label>
+
+                        <label for="single">
+                            <input id="single" type="checkbox"
+                                name="play"> Single</input></label>
+                        <label for="multi">
+                            <input id="multi" type="checkbox"
+                                name="play"> Multiplayer</input></label>
+                        <label for="nopref">
+                        <input id="nopref" type="checkbox"
+                                name="play"> No preference</input></label>
+                    </div>
+
+                    <div class="form-control border border-2 rounded border-dark">
+                        <label class="question">Which themes interest you?
+                            <small>Check all that apply</small>
+                        </label>
+
+                        <label for="sport">
+                            <input id="sport" type="checkbox"
+                                name="hob"> Sports</input></label>
+                        <label for="fantasy">
+                            <input id="fantasy" type="checkbox"
+                                name="hob"> Fantasy</input></label>
+                        <label for="comb">
+                            <input id="comb" type="checkbox"
+                                name="hob"> Combat</input></label>
+                        <label for="cook">
+                            <input id="cook" type="checkbox"
+                                name="hob"> Cooking</input></label>
+                        <label for="build">
+                            <input id="build" type="checkbox"
+                                name="hob"> Building</input></label>
+                        <label for="mediv">
+                            <input id="mediv" type="checkbox"
+                                name="hob"> Medieval</input></label>
+                        <label for="adv">
+                            <input id="adv" type="checkbox"
+                                name="hob"> Adventure</input></label>
+                    </div>
+
+                    <div class="form-control border border-2 rounded border-dark">
+                        <label class="question">Which technology do you have access to?
+                        </label>
+
+                        <label for="pc">
+                            <input id="pc" type="checkbox"
+                                name="tech"> PC or Laptop</input></label>
+                        <label for="cons">
+                            <input id="cons" type="checkbox"
+                                name="hob"> Console</input></label>
+                        <label for="mobile">
+                            <input id="mobile" type="checkbox"
+                                name="hob"> Mobile Phone or Tablet</input></label>
+
+                    </div>
+                    <div class="button">
+                        <button class="submit"><a class="btn" href="quiz-result.html">Submit</a></button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="my-footer">
+        <div class="footer-info">
+          <p>&copy; Game Hub 2023: Cheryl Feng, Angielena Luong, Kevin Vo, Jasmine Wong</p>
+        </div>
+      </footer>
+</body>
+
+</html>
